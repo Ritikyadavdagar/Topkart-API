@@ -1,6 +1,6 @@
 # Topkart-API
 
-###Lightning Deal class
+### Lightning Deal class
 
 We are going to make a Lightning deal class to represent a deal. The LightningDeal class is responsible for representing the data points of a single lightning deal. The class has six private fields:
 
@@ -11,7 +11,7 @@ totalUnits: represents the total units of the product available.
 availableUnits: represents the units of the product that are still available.
 expiryTime: represents the time when deal will expire.
 
-###Order class
+### Order class
 The Order class represents a single order placed by a customer for a particular lightning deal.
 
 quantity: represents the number of units of the product ordered by the customer.
@@ -19,7 +19,7 @@ orderTime: represents the time at which the order was placed.
 approved: represents the status of the order.
 
 
-###Topkart API class
+### Topkart API class
 The TopkartAPI class represents the main API class for handling lightning deals on the Topkart e-commerce website. The class has private fields:
 
 deals: represents the key-value of lightning deals.
